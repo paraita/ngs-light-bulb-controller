@@ -45,6 +45,7 @@ def configure(lights: List[BulbDevice], config: Dict = None) -> None:
 def turn_on(lights: List[BulbDevice]) -> None:
     for light in lights:
         light.turn_on()
+        light.set_brightness_percentage(20)
 
 
 def turn_off(lights: List[BulbDevice]) -> None:
