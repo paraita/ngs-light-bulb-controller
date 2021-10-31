@@ -22,7 +22,7 @@ We assume the bulbs are already declared and configured on your machine.
 To do so, go [here](https://github.com/jasonacox/tinytuya).
 
 
-## Gluing
+## Connect to Stream Deck
 
 If you're using a venv and need to map this script to a stream deck, you'll need to explicitely use the python exec of the venv.
 On my Mac, I use Automator to create two Applications:
